@@ -105,3 +105,5 @@ C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidl
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.csproj.CoreCompileInputs.cache
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.dll
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.pdb
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.InitialModel.resources
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.csproj.GenerateResource.cache
