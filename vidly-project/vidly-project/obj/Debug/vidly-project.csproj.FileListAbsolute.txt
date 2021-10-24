@@ -114,3 +114,5 @@ C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidl
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddNameToMembershipType.resources
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.SetNameOfMembershipTypes.resources
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddBirthdateToCustomer.resources
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddMovie.resources
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.Genres.resources
