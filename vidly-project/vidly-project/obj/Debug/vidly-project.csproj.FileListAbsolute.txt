@@ -111,3 +111,5 @@ C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidl
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddMembershipType.resources
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.PopulateMembershipTypes.resources
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddNameToMembershipType.resources
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.SetNameOfMembershipTypes.resources
