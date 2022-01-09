@@ -101,12 +101,7 @@ C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\Microsoft.
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.csproj.AssemblyReference.cache
-C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.csproj.CoreCompileInputs.cache
-C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.dll
-C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.pdb
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.InitialModel.resources
-C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.csproj.GenerateResource.cache
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddIsSubscribedToCustomer.resources
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddMembershipType.resources
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.PopulateMembershipTypes.resources
@@ -116,4 +111,8 @@ C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidl
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddBirthdateToCustomer.resources
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddMovie.resources
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.Genres.resources
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.csproj.GenerateResource.cache
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.csproj.CoreCompileInputs.cache
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.csproj.CopyComplete
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.dll
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.pdb
