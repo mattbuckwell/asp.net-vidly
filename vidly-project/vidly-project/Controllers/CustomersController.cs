@@ -33,6 +33,12 @@ namespace vidly_project.Controllers
             return View(viewModel);
         }
 
+        [HttpPost]
+        public ActionResult Create(NewCustomerViewModel viewModel)
+        {
+            return View();
+        }
+
         // GET: Customers
         public ViewResult Index()
         {
