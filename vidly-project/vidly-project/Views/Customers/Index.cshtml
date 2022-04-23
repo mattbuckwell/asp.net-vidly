@@ -48,6 +48,8 @@ else
 {
     <script>
         $(document).ready(function () {
+            @* this is the simplest way to use datatable plug-in *@
+            $("#customers").DataTable();
             @*
                 Our handling is hooked to the #customers selector, in this one handler we have a filter .js-delete.
                 So if the click event is raised by the element matching .js-delete then the call-back fuction is called.
