@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using System;
+using System.Data.Entity;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -25,7 +26,10 @@ namespace vidly_project.Controllers.Api
             // does the mapping
 
             // We now map Customer objects to CustomerDto
-            return _context.Customers.ToList().Select(Mapper.Map<Customer, CustomerDto>);
+            return _context.Customers
+                .Include(c => c.MembershipType)
+                .ToList()
+                .Select(Mapper.Map<Customer, CustomerDto>);
         }
 
         // GET /api/cutomers/1  - To get a single customer
