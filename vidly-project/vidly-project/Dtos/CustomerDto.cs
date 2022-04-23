@@ -15,7 +15,9 @@ namespace vidly_project.Dtos
         [StringLength(255)]
         public string Name { get; set; }
 
-        [Min18YearsIfAMember]
+        //[Min18YearsIfAMember]
+        // Commented out otherwise an exception will be thrown, as we are casting this object to Customer and not using the 
+        // API endpoint.
         public DateTime? Birthdate { get; set; }
 
         public bool IsSubscribedToNewsletter { get; set; }
