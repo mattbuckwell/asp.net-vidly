@@ -65,16 +65,16 @@ namespace vidly_project.Controllers.Api
 
         // PUT /api/customers/1   - Update a customer in our DB
         [HttpPut]
-        public void UpdateCustomer(int id, CustomerDto customerDto)
+        public IHttpActionResult UpdateCustomer(int id, CustomerDto customerDto)
         {
             if (!ModelState.IsValid)
-                throw new HttpResponseException(HttpStatusCode.BadRequest);
+                return BadRequest();
 
             // pull customer from DB and check if they exist or not
             var customerInDb = _context.Customers.SingleOrDefault(c => c.Id == id);
 
             if (customerInDb == null)
-                throw new HttpResponseException(HttpStatusCode.NotFound);
+                return NotFound();
 
             // Mapping a CustomerDto to a Customer, we pass the source object and the target object
             // customerInDb is used as it is a second object that was created above and is loaded into our _context,
@@ -82,21 +82,25 @@ namespace vidly_project.Controllers.Api
             Mapper.Map(customerDto, customerInDb);
 
             _context.SaveChanges();
+
+            return Ok();
         }
 
         // DELETE /api/customers/1  - Delete a customer in our DB
         [HttpDelete]
-        public void DeleteCustomer(int id)
+        public IHttpActionResult DeleteCustomer(int id)
         {
             // pull customer from DB and check if they exist or not
             var customerInDb = _context.Customers.SingleOrDefault(c => c.Id == id);
 
             if (customerInDb == null)
-                throw new HttpResponseException(HttpStatusCode.NotFound);
+                return NotFound();
 
             // this object will be marked as removed in memmory
             _context.Customers.Remove(customerInDb);
             _context.SaveChanges();
+
+            return Ok();
         }
     }
 }

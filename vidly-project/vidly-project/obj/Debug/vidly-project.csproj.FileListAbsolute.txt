@@ -125,3 +125,5 @@ C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\System.Dia
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\System.Net.Http.Formatting.xml
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\System.Web.Http.xml
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\System.Web.Http.WebHost.xml
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\AutoMapper.dll
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\AutoMapper.xml
