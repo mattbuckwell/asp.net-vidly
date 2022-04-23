@@ -117,3 +117,11 @@ C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidl
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.dll
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.pdb
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.csproj.AssemblyReference.cache
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\System.Net.Http.Formatting.dll
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\System.Web.Http.dll
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\System.Web.Http.WebHost.dll
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\System.Net.Http.Formatting.xml
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\System.Web.Http.xml
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\System.Web.Http.WebHost.xml

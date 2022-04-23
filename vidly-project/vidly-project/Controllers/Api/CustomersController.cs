@@ -47,7 +47,7 @@ namespace vidly_project.Controllers.Api
             return customer;
         }
 
-        // PUT /api/customers/1
+        // PUT /api/customers/1   - Update a customer in our DB
         [HttpPut]
         public void UpdateCustomer(int id, Customer customer)
         {
@@ -68,7 +68,7 @@ namespace vidly_project.Controllers.Api
             _context.SaveChanges();
         }
 
-        // DELETE /api/customers/1
+        // DELETE /api/customers/1  - Delete a customer in our DB
         [HttpDelete]
         public void DeleteCustomer(int id)
         {
