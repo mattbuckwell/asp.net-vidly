@@ -24,6 +24,7 @@ namespace vidly_project.Controllers
             _context.Dispose();
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult New()
         {
             var genres = _context.Genres.ToList();
@@ -71,7 +72,10 @@ namespace vidly_project.Controllers
         {
             //var movies = _context.Movies.Include(m => m.Genre).ToList();
 
-            return View();
+            if (User.IsInRole(RoleName.CanManageMovies))
+                return View("List");
+
+            return View("ReadOnlyList");
         }
 
         public ActionResult Details(int id)
