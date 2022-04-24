@@ -129,3 +129,4 @@ C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\AutoMapper
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\bin\AutoMapper.xml
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.SeedUsers.resources
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddPhoneToApplicationUser.resources
