@@ -8,6 +8,8 @@ namespace vidly_project
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            // [Authorise] has been added globally to the application - require login of user
+            filters.Add(new AuthorizeAttribute());
         }
     }
 }

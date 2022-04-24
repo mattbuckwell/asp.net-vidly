@@ -6,6 +6,8 @@ using System.Web.Mvc;
 
 namespace vidly_project.Controllers
 {
+    // This will allow users to be able to access the homepage but no further without logging in
+    [AllowAnonymous]
     public class HomeController : Controller
     {
         public ActionResult Index()
