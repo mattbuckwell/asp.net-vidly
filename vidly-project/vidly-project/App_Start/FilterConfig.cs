@@ -10,6 +10,8 @@ namespace vidly_project
             filters.Add(new HandleErrorAttribute());
             // [Authorise] has been added globally to the application - require login of user
             filters.Add(new AuthorizeAttribute());
+            // Will no longer be available on HTTP channel
+            filters.Add(new RequireHttpsAttribute());
         }
     }
 }
