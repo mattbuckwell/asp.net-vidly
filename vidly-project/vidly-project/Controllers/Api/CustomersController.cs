@@ -20,16 +20,23 @@ namespace vidly_project.Controllers.Api
         }
 
         // GET /api/customers   - To get a list of customers
-        public IEnumerable<CustomerDto> GetCustomers()
+        public IHttpActionResult GetCustomers(string query = null)
         {
             // We need to map these customer objects to CustomerDto, we use link extension method then pass a delegate that
             // does the mapping
 
             // We now map Customer objects to CustomerDto
-            return _context.Customers
-                .Include(c => c.MembershipType)
+            var customersQuery = _context.Customers
+                .Include(c => c.MembershipType);
+
+            if (!String.IsNullOrWhiteSpace(query))
+                customersQuery = customersQuery.Where(c => c.Name.Contains(query));
+
+            var customerDtos = customersQuery
                 .ToList()
                 .Select(Mapper.Map<Customer, CustomerDto>);
+
+            return Ok(customerDtos);
         }
 
         // GET /api/cutomers/1  - To get a single customer

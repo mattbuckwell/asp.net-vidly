@@ -129,11 +129,11 @@ C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidl
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.SeedUsers.resources
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddDrivingLicenseToApplicationUser.resources
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddPhoneToApplicationUser.resources
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddRentalToApplication.resources
+C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddNumberAvailableToMovie.resources
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.csproj.GenerateResource.cache
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.csproj.CoreCompileInputs.cache
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.csproj.CopyComplete
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.dll
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.pdb
 C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly-project.csproj.AssemblyReference.cache
-C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddRentalToApplication.resources
-C:\Users\mattb\projects\vidly-project\vidly-project\vidly-project\obj\Debug\vidly_project.Migrations.AddNumberAvailableToMovie.resources
